@@ -33,9 +33,9 @@ Dump LSASS:
 	
     --duplicate-elevate Look for existing lsass handle to duplicate and elevate
 	
-	--live				Parse creds from memory without writing into file on disk
+    --live		Parse creds from memory without writing into file on disk
 	
-	--fromfile [file]	Parse creds from dump file
+    --fromfile [file]	Parse creds from dump file
 	
     --asr               Attempt LSASS dump using ASR bypass (win10/11/2019) (no signature/no encrypt)
 	
